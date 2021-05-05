@@ -384,13 +384,13 @@
             run: function(){
                 var km = Math.ceil(Math.random() * 10);
                 if (fuel < km){
-    		            console.log('이동불가');
-    		            return;
-    		        }
-    		        fuel -= km;
-    		        console.log(km + 'km 이동 (남은 연료 ' + fuel + ')');
+    		        console.log('이동불가');
+    		        return;
+    		    }
+    		    fuel -= km;
+    		    console.log(km + 'km 이동 (남은 연료 ' + fuel + ')');
             }
-    		};
+    	};
     };
 
     var car = createCar();
